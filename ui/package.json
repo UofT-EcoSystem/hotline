@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel src/index.html --port 7234 --hmr-port 7235 ",
+    "build": "./node_modules/.bin/parcel build src/index.html"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.3",
+    "@reduxjs/toolkit": "^1.8.1",
+    "bootstrap-icons": "^1.8.3",
+    "colormap": "^2.3.2",
+    "mousetrap": "^1.6.5",
+    "prism-react-renderer": "^1.3.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-leader-line": "^1.0.5",
+    "react-redux": "^8.0.1",
+    "react-virtualized": "^9.22.3",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.6",
+    "supports-color": "^9.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@emotion/babel-plugin": "^11.9.2",
+    "@parcel/resolver-glob": "^2.8.2",
+    "@parcel/transformer-svg-react": "^2.5.0",
+    "autoprefixer": "^10.4.7",
+    "parcel": "^2.6.0",
+    "postcss": "^8.4.13",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.0.24"
+  }
+}

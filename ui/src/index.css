@@ -1,0 +1,95 @@
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+}
+/* ^ used instead of  @tailwind base;
+https://stackoverflow.com/questions/63761312/how-to-scope-tailwind-css#:~:text=Is%20it%20just%20the%20preflight%20that%27s%20breaking%20for%20you%20(the%20reset%20on%20things%20like%20input%2C%20etc%3F)%20Maybe%20just%20go%20here */
+
+@font-face {
+  /* https://www.fontspace.com/ngc-292-font-f45721 */
+  /* HALFTONE ITALIC REGULAR STYLE */
+  font-family: "ngc-gradient";
+  src: url("./fonts/Ngc292HalftoneSemiItalic-L3A0W.otf");
+}
+
+@font-face {
+  font-family: "SF1";
+  src: url("./fonts/SF-Pro-Display-Regular.ttf");
+}
+
+html {
+  overflow-y: scroll;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes bounceDown {
+  50% {
+    transform: translateY(25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+body {
+  background: #ebebeb
+}
+
+#logo {
+  /* background: -webkit-linear-gradient(#eee, #333); */ /*gray gradient color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#grow {
+  -moz-transition: height .5s;
+  -ms-transition: height .5s;
+  -o-transition: height .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  height: 0;
+  overflow: hidden;
+}
+
+.levelNumberCircle {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(23, 23, 23);
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.levelNumberText {
+  position: relative;
+  top: -1px;
+  color: white;
+}
+
+#hotline-app a {
+  text-decoration: none;
+}
+
+#hotline-app input {
+  font-size: 1em;
+  padding-top: 6px;
+}
+
+body {
+  margin: 0;
+}
