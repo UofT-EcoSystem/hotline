@@ -24,7 +24,7 @@ If you used **Hotline** in your research, please cite our
 
 ## Usage
 
-User guide to walk through using Hotline, coming soon! Post +1 on [this issue](https://github.com/UofT-EcoSystem/hotline/issues/1) be notified.
+User guide walk through for Hotline is coming soon. Post +1 on [this issue](https://github.com/UofT-EcoSystem/hotline/issues/1) be notified.
 
 ## License
 Hotline is released under the [Apache 2.0 license](LICENSE).
